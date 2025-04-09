@@ -7,9 +7,7 @@ export default function ReservationPage() {
       <Header />
       <main style={{ padding: "30px", textAlign: "center" }}>
         <h1>Make a Reservation</h1>
-        <p style={{ maxWidth: "500px", margin: "10px auto" }}>
-          To reserve a table, please call us or use the contact form.
-        </p>
+        <p>Please call us at <strong>123-456-7890</strong> or email <strong>reservations@restaurant.com</strong> to make a reservation.</p>
       </main>
       <Footer />
     </>
