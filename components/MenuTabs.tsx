@@ -53,7 +53,6 @@ const MenuTabs = () => {
         ))}
       </div>
 
-      {/* Menu Items */}
       <div
         style={{
           display: "flex",
@@ -62,7 +61,7 @@ const MenuTabs = () => {
           justifyContent: "center",
         }}
       >
-        {filteredItems.map((item, index) => (
+        {filteredItems.map((item: MenuItem, index: number) => (
           <div
             key={index}
             style={{
