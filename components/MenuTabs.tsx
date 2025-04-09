@@ -26,7 +26,8 @@ const MenuTabs = () => {
           <button
             key={tab}
             className={activeTab === tab ? "active" : ""}
-            onClick={() => setActiveTab(tab as any)}
+            onClick={() => setActiveTab(tab as "Food" | "Drinks" | "Brunch")}
+
           >
             {tab}
           </button>
